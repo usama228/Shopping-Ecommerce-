@@ -1,0 +1,17 @@
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    .MuiBox-root.css-y5vkr9{
+        display: none;
+    }
+    .MuiBox-root.css-okb3zz{
+        margin: 0;
+    }
+    #print-btn {
+        display: none;
+    }
+    #print-data, #print-data * {
+        visibility: visible;
+    }
+}
